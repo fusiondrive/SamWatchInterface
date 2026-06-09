@@ -5,7 +5,11 @@ AODService_v80-decompiled/
 AODService_v80/
 PremiumWatch/
 PushServiceCN/
+
+# Release packages (distribute separately)
+W25WatchInterface.zip
 W25WatchPrivApp.zip
+W25WatchBarPhone.apk
 
 # Build intermediates
 W25WatchModule/obj/
@@ -16,6 +20,7 @@ W25WatchModule/apk_staging/W25WatchBarPhone_new.apk
 W25WatchModule/apk_staging/W25WatchBarPhone_aligned.apk
 W25WatchModule/W25WatchBarPhone_aligned.apk
 W25WatchModule/W25WatchBarPhone.apk.idsig
+W25WatchModule/W25WatchBarPhone.apk
 
 # Keystore (keep debug only, no release keys)
 # W25WatchModule/debug.keystore  <- intentionally tracked for reproducible builds
