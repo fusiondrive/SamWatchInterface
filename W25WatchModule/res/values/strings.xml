@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">W25 Watch Bar Phone</string>
+    <string-array name="xposedscope">
+        <item>com.android.systemui</item>
+        <item>com.sec.android.app.premiumwatch</item>
+        <item>com.samsung.android.app.aodservice</item>
+    </string-array>
+</resources>

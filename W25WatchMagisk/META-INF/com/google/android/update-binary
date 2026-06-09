@@ -1,0 +1,16 @@
+#!/sbin/sh
+
+##########################################################
+# Magisk Module Installer - W25 Premium Watch priv-app
+##########################################################
+
+SKIPUNZIP=1
+
+# Extract module files
+unzip -o "$ZIPFILE" 'system/*' -d "$MODPATH"
+unzip -o "$ZIPFILE" 'module.prop' -d "$MODPATH"
+
+# Set correct permissions for priv-app APKs
+set_perm_recursive "$MODPATH/system/priv-app/PremiumWatch"   root root 0644 0644
+set_perm_recursive "$MODPATH/system/priv-app/PushServiceCN"  root root 0644 0644
+set_perm_recursive "$MODPATH/system/etc/permissions"         root root 0644 0644

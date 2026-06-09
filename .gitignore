@@ -1,0 +1,21 @@
+# Decompiled APK sources (large, derived from APKs)
+AODService_v80-decompiled/
+
+# Original APKs (large binaries, not needed in repo)
+AODService_v80/
+PremiumWatch/
+PushServiceCN/
+W25WatchPrivApp.zip
+
+# Build intermediates
+W25WatchModule/obj/
+W25WatchModule/out/
+W25WatchModule/gen/
+W25WatchModule/apk_staging/resources.apk
+W25WatchModule/apk_staging/W25WatchBarPhone_new.apk
+W25WatchModule/apk_staging/W25WatchBarPhone_aligned.apk
+W25WatchModule/W25WatchBarPhone_aligned.apk
+W25WatchModule/W25WatchBarPhone.apk.idsig
+
+# Keystore (keep debug only, no release keys)
+# W25WatchModule/debug.keystore  <- intentionally tracked for reproducible builds

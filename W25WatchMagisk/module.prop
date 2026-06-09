@@ -1,0 +1,6 @@
+id=w25watch_privapp
+name=W25 Premium Watch (priv-app)
+version=v1.0
+versionCode=1
+author=w25watch
+description=Installs PremiumWatch and PushServiceCN as priv-app for W25 AOD on bar phones
